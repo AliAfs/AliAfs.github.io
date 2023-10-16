@@ -20,4 +20,3 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Random text -- should change the frontend!
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com).

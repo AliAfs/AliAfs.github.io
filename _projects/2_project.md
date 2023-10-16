@@ -1,47 +1,29 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Object Detection Project 🚗
+description: Object Detection Project in Urban Environment with SSD RESNET 50 
+img: assets/img/project_object_detection/object_detection_poster.jpg #img_source: https://preimutils.readthedocs.io/en/latest/object-detection/
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## 🔍 Project Overview: 
+---
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Object detection is a computer vision technique that allows us to identify and locate objects in an image or video. Object detection is one of the essential elements to support autonomous driving. For safe and reliable driving, autonomous vehicles rely on their perception of their surroundings. Self-driving cars obtain this perception by using object detection algorithms to make precise determinations of nearby items, such as pedestrians, automobiles, cyclists, etc.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+In collaboration with the Udacity Nanodegree program, I undertook a project that sought to leverage the power of computer vision in the context of autonomous driving. The focus was on object detection, a technique vital for a vehicle's perception of its surroundings. The project involved training a convolutional neural network (CNN) to detect objects in a video feed. The CNN was trained on the Waymo dataset, which contains images of urban environments taken from real-world driving scenarios.
+
+ The CNN was trained to detect three classes of objects: cars, pedestrians, and cyclists. The CNN was trained using the TensorFlow object detection API, which is built on top of TensorFlow 2.0. The CNN was trained on a GPU-enabled Google Cloud Platform (GCP) instance. The trained model was then deployed to a Jetson Nano, a small, low-power computer that can be used for edge computing. The Jetson Nano was connected to a webcam, and the trained model was used to detect objects in the webcam's video feed. The project was a success, and the CNN was able to detect objects in the video feed with a high degree of accuracy.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_object_detection/training-batch.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    10 random images from training and validation sets.
 </div>
 
 You can also put regular text between your rows of images.
