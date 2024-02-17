@@ -22,7 +22,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello, I'm Ali, an engineer specializing in data science and engineering. Currently, I work as a Data Analyst at a startup company in Bremen, Germany, having completed my Master's Degree in Data Engineering. Throughout my master's studies, I developed an interest in the application of deep learning in vision problems. Master thesis focused on adaptation and training a Self-Supervised Vision Transformer for 3D medical imaging data. 
+Greetings! I'm Ali, an engineer specializing in data science and engineering. Currently, I work as a Data Analyst at a startup company in Bremen, Germany. I have completed my Master's Degree in Data Engineering. Throughout my master's studies, I developed an interest in applying deep learning to tackle vision problems. My [Master Thesis](https://aliafs.github.io/projects/1_project/) focused on adaptation and training a Self-Supervised Vision Transformer for 3D medical imaging data. 
 
 Prior to this, I earned a bachelor's degree in Mechanical Engineering and worked as an undergraduate research assistant at the Mechanics and Renewable Energies Lab at Ferdowsi University. During this period, I contributed to research on solar-powered water desalination systems.
 
